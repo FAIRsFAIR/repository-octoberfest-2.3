@@ -1,0 +1,269 @@
+{
+  "dcterms:modified": "2021-10-08",
+  "dcterms:creator": "DataverseNO",
+  "dcterms:isPartOf": "https://fairsfair.fair-dtls.surf-hosted.nl",
+  "@type": "ore:ResourceMap",
+  "@id": "https://dataverse.no/api/datasets/export?exporter=OAI_ORE&persistentId=doi:10.18710/KNUO9U",
+  "ore:describes": {
+    "geospatial:Geographic Coverage": {
+      "geographicCoverage:Country / Nation": "Norway",
+      "geographicCoverage:Other": "Roskrepp"
+    },
+    "citation:Distribution Date": "2021-10-05",
+    "citation:Production Date": "2017-09-19",
+    "Language": "English",
+    "citation:Production Place": "Roskrepp, Norway",
+    "citation:Date of Collection": {
+      "dateOfCollection:Start": "2017-09-19",
+      "dateOfCollection:End": "2017-09-19"
+    },
+    "Title": "Roskrepp field measurements 19.09.2017",
+    "Subject": "Engineering",
+    "citation:Depositor": "Pitorac, Livia-Ioana",
+    "Deposit Date": "2021-10-01",
+    "citation:Producer": {
+      "producer:Name": "Vereide, Kaspar",
+      "producer:Affiliation": "Sira-Kvina"
+    },
+    "Author": [
+      {
+        "author:Name": "Pitorac, Livia",
+        "author:Affiliation": "NTNU - Norwegian University of Science and Technology",
+        "Identifier Scheme": "ORCID",
+        "Identifier": "0000-0002-5632-9206"
+      },
+      {
+        "author:Name": "Vereide, Kaspar",
+        "author:Affiliation": "Sira-Kvina Power Company",
+        "Identifier Scheme": "ORCID",
+        "Identifier": "0000-0002-6983-6768"
+      }
+    ],
+    "citation:Contact": [
+      {
+        "datasetContact:Name": "Pitorac, Livia",
+        "datasetContact:Affiliation": "NTNU - Norwegian University of Science and Technology",
+        "datasetContact:E-mail": "livia.pitorac@ntnu.no"
+      },
+      {
+        "datasetContact:Name": "Pitorac, Livia",
+        "datasetContact:Affiliation": "NTNU - Norwegian University of Science and Technology",
+        "datasetContact:E-mail": "livia.pitorac@gmail.com"
+      }
+    ],
+    "citation:Distributor": {
+      "distributor:Name": "NTNU Open Research Data",
+      "distributor:Affiliation": "Norwegian University of Science and Technology",
+      "distributor:Abbreviation": "NTNU",
+      "distributor:URL": "https://dataverse.no/dataverse/ntnu"
+    },
+    "Related Publication": {
+      "Citation": "Submitted for review"
+    },
+    "citation:Description": {
+      "dsDescription:Text": "Pressure measurements in Roskrepp hydropower plant at different operating points.\nThe data about the generated power and generator parameters are provided by the power plant operator. \nData about the water levels in the upper and lower reservoir presented in Water level at Oyarvatn.csv and Water level at Roskreppfjorden.csv, respectively are collected at 1h intervals. \nThe pressure measurements are measured in the turbine inlet pipe and in the draft tube using pressure transducers with characteristics presented in the metadata. \nThe guide vane opening is measured as stroke using position sensors installed on the guide vane moving mechanism. \nThe rotation is determined using a tachometer directly on the turbine shaft.",
+      "dsDescription:Date": "2017-09-19"
+    },
+    "citation:Keyword": [
+      {
+        "keyword:Term": "pressure measurements"
+      },
+      {
+        "keyword:Term": "hydropower"
+      },
+      {
+        "keyword:Term": "mass oscillations"
+      },
+      {
+        "keyword:Term": "water hammer"
+      }
+    ],
+    "@id": "doi:10.18710/KNUO9U",
+    "@type": [
+      "ore:Aggregation",
+      "schema:Dataset"
+    ],
+    "schema:version": "1.0",
+    "schema:name": "Roskrepp field measurements 19.09.2017",
+    "schema:dateModified": "2021-10-08 08:22:05.606",
+    "schema:datePublished": "2021-10-08",
+    "schema:license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "dvcore:fileTermsOfAccess": {
+      "dvcore:fileRequestAccess": false
+    },
+    "schema:includedInDataCatalog": "DataverseNO",
+    "ore:aggregates": [
+      {
+        "schema:name": "00_Read_me.txt",
+        "dvcore:restricted": false,
+        "schema:version": 1,
+        "dvcore:datasetVersionId": 1858,
+        "@id": "doi:10.18710/KNUO9U/OW1GY4",
+        "schema:sameAs": "https://dataverse.no/api/access/datafile/:persistentId?persistentId=doi:10.18710/KNUO9U/OW1GY4",
+        "@type": "ore:AggregatedResource",
+        "schema:fileFormat": "text/plain",
+        "dvcore:filesize": 6104,
+        "dvcore:storageIdentifier": "file://17c5235b594-218fd0eb831e",
+        "dvcore:rootDataFileId": -1,
+        "dvcore:checksum": {
+          "@type": "MD5",
+          "@value": "670bd025a49bd509694c6e1a7a865856"
+        }
+      },
+      {
+        "schema:name": "1. Zero reading before.txt",
+        "dvcore:restricted": false,
+        "schema:version": 1,
+        "dvcore:datasetVersionId": 1858,
+        "@id": "doi:10.18710/KNUO9U/MLC5CM",
+        "schema:sameAs": "https://dataverse.no/api/access/datafile/:persistentId?persistentId=doi:10.18710/KNUO9U/MLC5CM",
+        "@type": "ore:AggregatedResource",
+        "schema:fileFormat": "text/plain",
+        "dvcore:filesize": 5300958,
+        "dvcore:storageIdentifier": "file://17c5c148be3-f7a62414146e",
+        "dvcore:rootDataFileId": -1,
+        "dvcore:checksum": {
+          "@type": "MD5",
+          "@value": "5cef3c42f4a496630d4c44743910a083"
+        }
+      },
+      {
+        "schema:name": "2. With turbine governor.txt",
+        "dvcore:restricted": false,
+        "schema:version": 1,
+        "dvcore:datasetVersionId": 1858,
+        "@id": "doi:10.18710/KNUO9U/E2QMR1",
+        "schema:sameAs": "https://dataverse.no/api/access/datafile/:persistentId?persistentId=doi:10.18710/KNUO9U/E2QMR1",
+        "@type": "ore:AggregatedResource",
+        "schema:fileFormat": "text/plain",
+        "dvcore:filesize": 18779965,
+        "dvcore:storageIdentifier": "file://17c5c14b57d-34b52d67eee2",
+        "dvcore:rootDataFileId": -1,
+        "dvcore:checksum": {
+          "@type": "MD5",
+          "@value": "9b509ca3a9fb7445881eb04e91dfca5f"
+        }
+      },
+      {
+        "schema:name": "3. With stroke limiter.txt",
+        "dvcore:restricted": false,
+        "schema:version": 1,
+        "dvcore:datasetVersionId": 1858,
+        "@id": "doi:10.18710/KNUO9U/3OQIGK",
+        "schema:sameAs": "https://dataverse.no/api/access/datafile/:persistentId?persistentId=doi:10.18710/KNUO9U/3OQIGK",
+        "@type": "ore:AggregatedResource",
+        "schema:fileFormat": "text/plain",
+        "dvcore:filesize": 23043161,
+        "dvcore:storageIdentifier": "file://17c5c14e1db-b3038ee08108",
+        "dvcore:rootDataFileId": -1,
+        "dvcore:checksum": {
+          "@type": "MD5",
+          "@value": "cd6919f7a41e1adf8d69db87f4935e0d"
+        }
+      },
+      {
+        "schema:name": "4. Zero reading after.txt",
+        "dvcore:restricted": false,
+        "schema:version": 1,
+        "dvcore:datasetVersionId": 1858,
+        "@id": "doi:10.18710/KNUO9U/NI7827",
+        "schema:sameAs": "https://dataverse.no/api/access/datafile/:persistentId?persistentId=doi:10.18710/KNUO9U/NI7827",
+        "@type": "ore:AggregatedResource",
+        "schema:fileFormat": "text/plain",
+        "dvcore:filesize": 4310804,
+        "dvcore:storageIdentifier": "file://17c5c14e9d1-a9cd22a304cf",
+        "dvcore:rootDataFileId": -1,
+        "dvcore:checksum": {
+          "@type": "MD5",
+          "@value": "1179dafbe96684fa6e10a486c187e13e"
+        }
+      },
+      {
+        "schema:name": "Power, rpm, droop.txt",
+        "dvcore:restricted": false,
+        "schema:version": 1,
+        "dvcore:datasetVersionId": 1858,
+        "@id": "doi:10.18710/KNUO9U/WMWIW4",
+        "schema:sameAs": "https://dataverse.no/api/access/datafile/:persistentId?persistentId=doi:10.18710/KNUO9U/WMWIW4",
+        "@type": "ore:AggregatedResource",
+        "schema:fileFormat": "text/plain",
+        "dvcore:filesize": 313649,
+        "dvcore:storageIdentifier": "file://17c5c14eb95-997a17dddb44",
+        "dvcore:rootDataFileId": -1,
+        "dvcore:checksum": {
+          "@type": "MD5",
+          "@value": "b61a032637be94d3037aad7c8f45508c"
+        }
+      },
+      {
+        "schema:name": "Water level at Oyarvatn.txt",
+        "dvcore:restricted": false,
+        "schema:version": 1,
+        "dvcore:datasetVersionId": 1858,
+        "@id": "doi:10.18710/KNUO9U/TY6TQP",
+        "schema:sameAs": "https://dataverse.no/api/access/datafile/:persistentId?persistentId=doi:10.18710/KNUO9U/TY6TQP",
+        "@type": "ore:AggregatedResource",
+        "schema:fileFormat": "text/plain",
+        "dvcore:filesize": 3091,
+        "dvcore:storageIdentifier": "file://17c5c14ec8b-2dcfdb0a66f6",
+        "dvcore:rootDataFileId": -1,
+        "dvcore:checksum": {
+          "@type": "MD5",
+          "@value": "ffc51ee00750d3d750f7d5b93c0adb2e"
+        }
+      },
+      {
+        "schema:name": "Water level at Roskreppfjorden.txt",
+        "dvcore:restricted": false,
+        "schema:version": 1,
+        "dvcore:datasetVersionId": 1858,
+        "@id": "doi:10.18710/KNUO9U/KZXLHF",
+        "schema:sameAs": "https://dataverse.no/api/access/datafile/:persistentId?persistentId=doi:10.18710/KNUO9U/KZXLHF",
+        "@type": "ore:AggregatedResource",
+        "schema:fileFormat": "text/plain",
+        "dvcore:filesize": 3100,
+        "dvcore:storageIdentifier": "file://17c5c14edc7-63b9f915b7d6",
+        "dvcore:rootDataFileId": -1,
+        "dvcore:checksum": {
+          "@type": "MD5",
+          "@value": "ffa55e38f1e80c6ce76fea4f215abed5"
+        }
+      }
+    ],
+    "schema:hasPart": [
+      "doi:10.18710/KNUO9U/OW1GY4",
+      "doi:10.18710/KNUO9U/MLC5CM",
+      "doi:10.18710/KNUO9U/E2QMR1",
+      "doi:10.18710/KNUO9U/3OQIGK",
+      "doi:10.18710/KNUO9U/NI7827",
+      "doi:10.18710/KNUO9U/WMWIW4",
+      "doi:10.18710/KNUO9U/TY6TQP",
+      "doi:10.18710/KNUO9U/KZXLHF"
+    ]
+  },
+  "@context": {
+    "Author": "http://purl.org/dc/terms/creator",
+    "Citation": "http://purl.org/dc/terms/bibliographicCitation",
+    "Deposit Date": "http://purl.org/dc/terms/dateSubmitted",
+    "Identifier": "http://purl.org/spar/datacite/AgentIdentifier",
+    "Identifier Scheme": "http://purl.org/spar/datacite/AgentIdentifierScheme",
+    "Language": "http://purl.org/dc/terms/language",
+    "Related Publication": "http://purl.org/dc/terms/isReferencedBy",
+    "Subject": "http://purl.org/dc/terms/subject",
+    "Title": "http://purl.org/dc/terms/title",
+    "author": "https://dataverse.org/schema/citation/author#",
+    "citation": "https://dataverse.org/schema/citation/",
+    "datasetContact": "https://dataverse.org/schema/citation/datasetContact#",
+    "dateOfCollection": "https://dataverse.org/schema/citation/dateOfCollection#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "distributor": "https://dataverse.org/schema/citation/distributor#",
+    "dsDescription": "https://dataverse.org/schema/citation/dsDescription#",
+    "dvcore": "https://dataverse.org/schema/core#",
+    "geographicCoverage": "https://dataverse.no/schema/geospatial/geographicCoverage#",
+    "geospatial": "https://dataverse.no/schema/geospatial#",
+    "keyword": "https://dataverse.org/schema/citation/keyword#",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "producer": "https://dataverse.org/schema/citation/producer#",
+    "schema": "http://schema.org/"
+  }
+}
