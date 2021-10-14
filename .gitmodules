@@ -1,0 +1,4 @@
+[submodule "B2SHARE-FAIR"]
+	path = B2SHARE-FAIR
+	url = https://github.com/EUDAT-B2SHARE/B2SHARE-FAIR
+	branch = fdphackathon
