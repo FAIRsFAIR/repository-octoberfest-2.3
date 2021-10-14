@@ -1,0 +1,153 @@
+[ {
+  "@graph" : [ {
+    "@id" : "_:node1fhuu2lp0x5416",
+    "@type" : [ "http://xmlns.com/foaf/0.1/Agent" ],
+    "http://xmlns.com/foaf/0.1/name" : [ {
+      "@value" : "Finnish Meteorological Institute"
+    } ]
+  }, {
+    "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f",
+    "@type" : [ "http://www.w3.org/ns/dcat#Resource", "http://www.w3.org/ns/dcat#Dataset" ],
+    "http://purl.org/dc/terms/accessRights" : [ {
+      "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f#accessRights"
+    } ],
+    "http://purl.org/dc/terms/conformsTo" : [ {
+      "@id" : "http://193.166.24.131:5000/profile/2f08228e-1789-40f8-84cd-28e3288c3604"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : " ECHAM6 resolution was T63L95.\\nVariables include: temperature, u winds, geopotential height, snow fraction. Atmospheric data is on 24 levels from 1000hPa to 1hPa. Monthly time-means\\nPython notebooks are included to replicate all figures from Tyrrell, N. L., A. Y. Karpechko, and P. Räisänen, 2018: The influence of Eurasian snow extent on the northern extratropical stratosphere in a QBO resolving model. J. Geophys. Res., 123, 315–328\\n\\nTyrrelletal2018_clim.tar.gz contains the control runs.\\nTyrrelletal2018_snow.tar.gz contains the snow anomaly runs.\\nBoth tar files contain the python notebooks"
+    } ],
+    "http://purl.org/dc/terms/hasVersion" : [ {
+      "@value" : "1.0"
+    } ],
+    "http://purl.org/dc/terms/isPartOf" : [ {
+      "@id" : "http://193.166.24.131:5000/catalog/1c57bc96-3e5c-4cfb-bab4-ed5bd75c508a"
+    } ],
+    "http://purl.org/dc/terms/issued" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2021-10-07T00:00:00Z"
+    } ],
+    "http://purl.org/dc/terms/language" : [ {
+      "@id" : "http://id.loc.gov/vocabulary/iso639-1/en"
+    } ],
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://purl.org/NET/rdflicense/cc-by"
+    } ],
+    "http://purl.org/dc/terms/modified" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2021-10-14T00:00:00Z"
+    } ],
+    "http://purl.org/dc/terms/publisher" : [ {
+      "@id" : "_:node1fhuu2lp0x5416"
+    } ],
+    "http://purl.org/dc/terms/rights" : [ {
+      "@id" : "https://fmi.fi"
+    } ],
+    "http://purl.org/dc/terms/title" : [ {
+      "@value" : "ECHAM6 atmospheric model data for experiments with an artificial snow anomaly added over Eurasia"
+    } ],
+    "http://rdf.biosemantics.org/ontologies/fdp-o#metadataIdentifier" : [ {
+      "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f#identifier"
+    } ],
+    "http://rdf.biosemantics.org/ontologies/fdp-o#metadataIssued" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2021-10-14T10:31:19.915263015Z"
+    } ],
+    "http://rdf.biosemantics.org/ontologies/fdp-o#metadataModified" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2021-10-14T11:58:54.578337518Z"
+    } ],
+    "http://semanticscience.org/resource/SIO_000628" : [ {
+      "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f/metrics/445c0a70d1e214e545b261559e2842f4"
+    }, {
+      "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f/metrics/5d27e854a9e78eb3f663331cd47cdc13"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+      "@value" : "ECHAM6 atmospheric model data for experiments with an artificial snow anomaly added over Eurasia"
+    } ],
+    "http://www.w3.org/ns/dcat#contactPoint" : [ {
+      "@id" : "https://www.ilmatieteenlaitos.fi/yhteystiedot"
+    } ],
+    "http://www.w3.org/ns/dcat#distribution" : [ {
+      "@id" : "http://193.166.24.131:5000/distribution/c15d59dc-1665-4c89-8893-546bcd606a83"
+    } ],
+    "http://www.w3.org/ns/dcat#landingPage" : [ {
+      "@id" : "https://fmi.b2share.csc.fi/records/e13c7cf71118462087c513e2407d88f2"
+    } ],
+    "http://www.w3.org/ns/dcat#theme" : [ {
+      "@id" : "https://www.wikidata.org/wiki/Q757520"
+    } ]
+  }, {
+    "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f#accessRights",
+    "@type" : [ "http://purl.org/dc/terms/RightsStatement" ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "This resource has no access restriction"
+    } ]
+  }, {
+    "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f#identifier",
+    "@type" : [ "http://purl.org/spar/datacite/Identifier" ],
+    "http://purl.org/dc/terms/identifier" : [ {
+      "@value" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f"
+    } ]
+  }, {
+    "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f/metrics/445c0a70d1e214e545b261559e2842f4",
+    "http://semanticscience.org/resource/SIO_000332" : [ {
+      "@id" : "https://www.ietf.org/rfc/rfc3986.txt"
+    } ],
+    "http://semanticscience.org/resource/SIO_000628" : [ {
+      "@id" : "https://www.ietf.org/rfc/rfc3986.txt"
+    } ]
+  }, {
+    "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f/metrics/5d27e854a9e78eb3f663331cd47cdc13",
+    "http://semanticscience.org/resource/SIO_000332" : [ {
+      "@id" : "https://www.wikidata.org/wiki/Q8777"
+    } ],
+    "http://semanticscience.org/resource/SIO_000628" : [ {
+      "@id" : "https://www.wikidata.org/wiki/Q8777"
+    } ]
+  }, {
+    "@id" : "http://193.166.24.131:5000/distribution/",
+    "@type" : [ "http://www.w3.org/ns/ldp#DirectContainer" ],
+    "http://purl.org/dc/terms/title" : [ {
+      "@value" : "Distributions"
+    } ],
+    "http://www.w3.org/ns/ldp#contains" : [ {
+      "@id" : "http://193.166.24.131:5000/distribution/c15d59dc-1665-4c89-8893-546bcd606a83"
+    } ],
+    "http://www.w3.org/ns/ldp#hasMemberRelation" : [ {
+      "@id" : "http://www.w3.org/ns/dcat#distribution"
+    } ],
+    "http://www.w3.org/ns/ldp#membershipResource" : [ {
+      "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f"
+    } ]
+  }, {
+    "@id" : "http://193.166.24.131:5000/profile/2f08228e-1789-40f8-84cd-28e3288c3604",
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+      "@value" : "Dataset Profile"
+    } ]
+  } ],
+  "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f",
+  "http://purl.org/dc/terms/conformsTo" : [ {
+    "@id" : "http://193.166.24.131:5000/profile/2f08228e-1789-40f8-84cd-28e3288c3604"
+  } ]
+}, {
+  "@id" : "http://193.166.24.131:5000/distribution/",
+  "@type" : [ "http://www.w3.org/ns/ldp#DirectContainer" ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Distributions"
+  } ],
+  "http://www.w3.org/ns/ldp#contains" : [ {
+    "@id" : "http://193.166.24.131:5000/distribution/c15d59dc-1665-4c89-8893-546bcd606a83"
+  } ],
+  "http://www.w3.org/ns/ldp#hasMemberRelation" : [ {
+    "@id" : "http://www.w3.org/ns/dcat#distribution"
+  } ],
+  "http://www.w3.org/ns/ldp#membershipResource" : [ {
+    "@id" : "http://193.166.24.131:5000/dataset/3b368e6c-cd9b-4684-a84d-a662bfa9969f"
+  } ]
+}, {
+  "@id" : "http://193.166.24.131:5000/profile/2f08228e-1789-40f8-84cd-28e3288c3604",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dataset Profile"
+  } ]
+} ]
