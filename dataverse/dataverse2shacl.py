@@ -1,7 +1,6 @@
 import sys
 import csv
 from collections import namedtuple
-from itertools import tee
 
 Property = namedtuple("Property", "datasetField, name, title, description, watermark, fieldType, displayOrder, displayFormat, advancedSearch, allowControlledVocabulary, allowmultiples, facetable, displayoncreation, required, parent, metadatablock_id, termURI")
 
@@ -10,6 +9,15 @@ fieldTypeMapping = {
     "textbox": "sh:Literal",
     "date": "sh:Literal",
     "url": "sh:IRI"
+}
+
+dashViewerMapping = {
+    "text": "dash:LiteralViewer",
+    "textbox": "dash:LiteralViewer",
+    "email": "dash:LiteralViewer",
+    "date": "dash:LiteralViewer",
+    "url": "dash:URIViewer",
+    "none": "dash:DetailsViewer"
 }
 
 skipHeaderRowCount = 3
@@ -40,12 +48,14 @@ for p in map(Property._make, csv.reader(open(sys.argv[1], "r"))):
         "minCount": 1 if p.required == 'TRUE' else None,
         "maxCount": None if p.allowmultiples == 'TRUE' else 1,
         "node": p.name + "Shape" if p.fieldType == 'none' else None,
-        "nodeKind": fieldTypeMapping[p.fieldType] if p.fieldType in fieldTypeMapping else None
+        "nodeKind": fieldTypeMapping[p.fieldType] if p.fieldType in fieldTypeMapping else None,
+        "viewer": dashViewerMapping[p.fieldType] if p.fieldType in dashViewerMapping else None
     }
 
     shapes[p.parent].append(shape)
 
 print("@prefix sh: <http://www.w3.org/ns/shacl#> .")
+print("@prefix dash: <http://datashapes.org/dash#> .")
 print("@prefix : <http://example.com/> .")
 print()
 
@@ -66,5 +76,7 @@ for name, propshapes in shapes.items():
             print(f"    sh:node :{shape['node']}Shape ;")
         if shape["nodeKind"]:
             print(f"    sh:nodeKind {shape['nodeKind']} ;")
+        if shape["viewer"]:
+            print(f"    dash:viewer {shape['viewer']} ;")
         print(f"  ] {';' if i < len(propshapes) else '.'}")
     print() # newline for easier reading
